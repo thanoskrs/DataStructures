@@ -22,9 +22,9 @@ public class PostfixToInfix {
                 break;
             }
             if (c == '+' || c == '-' || c == '*' || c == '/') {
-                operators += 1;
+                operators++;
             } else {
-                operands += 1;
+                operands++;
             }
         }
 
