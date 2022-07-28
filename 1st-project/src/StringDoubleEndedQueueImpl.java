@@ -40,7 +40,7 @@ public class StringDoubleEndedQueueImpl<T> implements StringDoubleEndedQueue <T>
             head.prev = i;
             head = i;
         }
-        totalItems += 1;
+        totalItems++;
 
     }
 
@@ -58,7 +58,7 @@ public class StringDoubleEndedQueueImpl<T> implements StringDoubleEndedQueue <T>
             head = head.next;
             head.prev = null;
         }
-        totalItems -=1;
+        totalItems--;
         return item;
     }
 
