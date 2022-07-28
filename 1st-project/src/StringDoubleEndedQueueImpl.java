@@ -20,7 +20,7 @@ public class StringDoubleEndedQueueImpl<T> implements StringDoubleEndedQueue <T>
 
     /* we increase totalItems by 1 every time
        we insert a new node at the queue, and decrease by 1 when we
-       remove a node. So, size has time O(1)
+       remove a node. So, size has complexity O(1)
      */
     private int totalItems = 0;
 
